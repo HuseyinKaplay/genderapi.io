@@ -1,0 +1,22 @@
+{
+    "name": "huseyinkaplay/genderapi",
+    "description": "genderapi.io Gender finder API",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Huseyin Kaplay",
+            "email": "kaplayhuseyin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GenderAPI\\":"genderapi"
+        },
+        "classmap": [
+          "genderapi/src"
+        ]
+    }
+}
